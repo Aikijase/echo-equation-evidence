@@ -1,0 +1,23 @@
+{
+  "figure_id": "fig3_lensing_residuals",
+  "description": "Figure 3: CMB lensing residuals",
+  "generated_at_utc": "2025-11-10T08:21:26Z",
+  "environment": {
+    "python_version": "3.11.8",
+    "platform": "Linux-4.4.0-x86_64-with-glibc2.36"
+  },
+  "inputs": [
+    {
+      "path": "(expected) lensing_residuals.csv",
+      "sha256": null
+    }
+  ],
+  "code_scripts": [
+    {
+      "path": "(expected) echo_plots.py",
+      "sha256": null
+    }
+  ],
+  "outputs": [],
+  "notes": "Auto-generated provenance. Replace with exact data sources/commits."
+}

@@ -1,0 +1,6 @@
+path,type,description
+phase20_fit/fig1_fit_comparison_provenance.json,provenance,Figure 1: Model fit comparison (Echo vs LCDM)
+phase8_spectrum/fig2_spectral_density_provenance.json,provenance,Figure 2: Operator spectral density and resonance
+phase21_guardbands/fig3_lensing_residuals_provenance.json,provenance,Figure 3: CMB lensing residuals
+phase21_guardbands/guard_metrics_summary.csv,metrics,Guard metrics summary
+README_EVIDENCE.md,readme,Bundle overview and instructions

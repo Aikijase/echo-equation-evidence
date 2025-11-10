@@ -1,0 +1,5 @@
+metric,value,units,note
+delta_chi2_total,,,Δχ²(model) - Δχ²(ΛCDM); expect |Δ| ≤ 1
+radial_distance_monotonic,PASS,,guard check
+lensing_residual_max_abs,,,max |model/Planck - 1| over ℓ range
+baosn_split_stability,,,Δχ² stability across z splits

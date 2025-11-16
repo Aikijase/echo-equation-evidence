@@ -1,0 +1,33 @@
+#Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+(CC BY-NC-ND 4.0)
+
+Copyright (c) 2025 Jason Watts
+
+This Evidence Bundle (including analysis scripts, figure-generation notebooks,
+configuration files, compressed-likelihood inputs, and all associated
+reproducibility materials) is licensed under the Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License.
+
+You are free to:
+
+• Download and share the materials in this bundle for the purposes of
+  verification, reproduction of results, or academic review.
+
+Under the following terms:
+
+• Attribution — You must give appropriate credit, provide a link to the
+  license, and indicate if changes were made. You may not imply that the
+  licensor endorses you or your use.
+
+• NonCommercial — You may not use the material for commercial purposes.
+
+• NoDerivatives — If you remix, transform, or build upon the material,
+  you may not distribute the modified material without explicit written
+  permission from the copyright holder.
+
+No additional restrictions — You may not apply legal terms or technological
+measures that legally restrict others from doing anything the license permits.
+
+Full license text:
+https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+

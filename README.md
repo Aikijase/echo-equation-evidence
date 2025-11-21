@@ -1,90 +1,55 @@
+# Echo Equation Evidence Bundle — Minimal Referee Pack (v1.1)
 
-# Echo Equation Evidence Bundle v1
-Zenodo DOI: 10.5281/zenodo.17570715
+Zenodo DOI: 10.5281/zenodo.17622475  
+Associated manuscript: *A Resonant Medium Framework for Cosmology: Finite-Memory Dynamics and the Echo Equation.*
 
-This archive contains the full set of reproducibility materials used in the
-paper **“A Resonant Medium Framework for Cosmology: Finite Memory Dynamics and the Echo Equation.”**  
-It provides the exact scripts, compressed inputs, configuration files, and
-figure-generation resources required to reproduce all results presented in the
-manuscript.
+This archive provides the **minimal, referee-oriented evidence pack** for the Echo Equation analysis. It is designed to make it easy to:
 
----
+- Inspect which quantitative checks underpin the main figures.  
+- Verify that key guard metrics were computed and passed.  
+- Cross-check that the figure assets used in the paper correspond to well-defined inputs and scripts.
 
-## Contents
+This bundle is intentionally **small**. It does **not** contain all analysis scripts, likelihood files, or raw survey products.
 
-### `scripts/`
-Analysis scripts used to generate predictions, stability checks, and derived
-quantities. Includes:
-- `magnet_echo_v9.py`
-- `spectrum_solver_phase8.py`
-- likelihood and guard-metric tools
-- auxiliary analysis functions
+For full code and data, please refer to:
 
-These scripts were used to produce the BAO, SN, and CMB-lensing model
-predictions and guard values discussed in the manuscript.
-
-### `notebooks/`
-Jupyter notebooks used to generate all figures in the paper. Each notebook
-produces one or more plots appearing in the manuscript and uses the data and
-configuration files stored in this bundle.
-
-### `data/`
-Compressed-likelihood inputs and observational summaries used for the analysis:
-- BAO compressed distances  
-- Binned supernova luminosity distances  
-- Planck 2018 CMB lensing inputs  
-- Supporting numeric arrays for growth and stability tests
-
-These are the exact files used in all computations.
-
-### `configs/`
-Parameter files and guard-metric configurations defining the stability,
-frequency, and damping settings for Echo Equation runs. These ensure full
-reproducibility of all reported results.
-
-### `figs/`
-Source data used by the notebooks to generate Figures 1–3 in the manuscript.
-Includes numeric arrays and intermediate results needed to reconstruct each
-plot exactly.
+- Main code + analysis repository: `<GitHub URL for the Echo Equation project>`  
+- Full Zenodo deposition with complete scripts and inputs: `10.5281/zenodo.17622475`  
 
 ---
 
-## How to Reproduce Results
+## Contents of this bundle
 
-1. Install Python 3.9+ with standard scientific libraries  
-   (`numpy`, `scipy`, `matplotlib`, `json`, etc.).
-2. Run any script in `scripts/` to reproduce the numerical predictions.
-3. Open the notebooks in `notebooks/` to regenerate the manuscript figures.
-4. All configuration and input files are already included; paths are relative.
+- `README.md` — high-level description (this file).  
+- `README_EVIDENCE.md` — how to use the evidence bundle.  
+- `EVIDENCE_INDEX.csv` — machine-readable index of included artifacts.  
+- `EVIDENCE_LOCK.SHA256` — SHA-256 lockfile for the contents listed in `EVIDENCE_INDEX.csv`.  
+- `phase20_fit/fig1_fit_comparison_provenance.json` — provenance for Figure 1 (fit comparison).  
+- `phase8_spectrum/fig2_spectral_density_provenance.json` — provenance for Figure 2 (operator spectral density).  
+- `phase21_guardbands/fig3_lensing_residuals_provenance.json` — provenance for Figure 3 (CMB lensing residuals).  
+- `phase21_guardbands/guard_metrics_summary.csv` — numerical summary of guardband checks supporting Figure 3.
 
-Each figure and result in the paper can be reproduced using only the contents
-of this archive.
-
----
-
-## License
-This bundle is released under the **Creative Commons Attribution–NonCommercial–
-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)**.  
-See `LICENSE.txt` for full terms.
-
-You may download and share this archive for verification, academic review, or
-reproduction of results. You may not modify, redistribute, or use the material
-for commercial purposes without written permission from the copyright holder.
+All paths and descriptions are mirrored in `EVIDENCE_INDEX.csv`.
 
 ---
 
-## Version History
+## How this relates to the full project
 
-### v1.0 (Initial Release)
-- First public release of all reproducibility materials for the Echo Equation
-  analysis.
-- Includes analysis scripts, figure-generation notebooks, configuration files,
-  compressed-likelihood inputs, and source data for all manuscript figures.
-- Structured for full reproducibility and transparency.
+The full Echo Equation project includes:
 
-See `CHANGELOG.md` for full details.
+- Phase-by-phase analysis scripts.  
+- Compressed likelihood inputs (BAO, SN, CMB lensing, etc.).  
+- Additional diagnostic and stability figures.
+
+Those materials live in the main repository and the full Zenodo record.  
+
+This minimal bundle is scoped specifically for **peer review**: it exposes the provenance and guard metrics behind the primary figures in a way that is easy to inspect, hash, and archive.
 
 ---
 
-For questions or clarifications, please refer to the manuscript or contact the
-corresponding author.
+## Versioning
+
+- **v1.0** — Initial public release of the minimal evidence bundle.  
+- **v1.1** — Updated README files; clarified scope as a minimal referee pack; aligned DOI with `10.5281/zenodo.17622475`.
+
+See `CHANGELOG.md` for a more detailed change log.

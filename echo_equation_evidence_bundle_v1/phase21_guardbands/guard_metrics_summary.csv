@@ -1,0 +1,5 @@
+metric,value,units,note
+delta_chi2_total,<PENDING>,dimensionless,"Δχ²(model) − Δχ²(ΛCDM); guardband requires |Δ| ≤ 1 (see main Phase-21 guard logs for exact value)"
+radial_distance_monotonic,PASS,flag,"Comoving-distance monotonicity guard; PASS indicates no radial-distance pathologies"
+lensing_residual_max_abs,<PENDING>,dimensionless,"Maximum fractional residual |model/Planck − 1| across plotted ℓ range (see main Phase-21 logs)"
+baosn_split_stability,<PENDING>,dimensionless,"Δχ² stability across BAO/SN redshift splits (see main Phase-21 logs)"
